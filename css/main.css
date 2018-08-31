@@ -52,6 +52,12 @@ html, body {
     padding: 0;
 }
 
+.comeback {
+    color: #fff;
+    font-family: "Archia", sans-serif;
+    font-weight: normal;
+}
+
 .splash {
     height: 100vh;
 }
@@ -261,6 +267,7 @@ nav .overlay {
     margin: 0;
     width: 0vw;
     height: 40em;
+    padding-top: 5em;
 }
 
 .togglednav .linkwrapper {
@@ -308,6 +315,7 @@ nav .overlay {
     animation-duration: 1s;
     animation-timing-function: cubic-bezier(0.2, 1, 0.2, 1);
     opacity: 1;
+    font-size: 0.8em;
     transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
     pointer-events: auto;
 }
@@ -547,14 +555,14 @@ footer {
 .mail {
     color: #fff;
     text-decoration: none;
-    border-bottom: 1px dotted #fff;
+    border-bottom: 1px solid #fff;
     -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
     -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
     transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
 }
 
 .mail:hover {
-    border-bottom: 1px dotted transparent;
+    border-bottom: 1px solid transparent;
     -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
     -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
     transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
@@ -759,6 +767,11 @@ input[type='submit']:hover {
     max-width: 25%;
     padding: 0 4px;
 }
+
+.comingsoon {
+    font-family: 'Product Sans', sans-serif;
+}
+
 @media screen and (max-width: 800px) {
     .column {
         -ms-flex: 50%;

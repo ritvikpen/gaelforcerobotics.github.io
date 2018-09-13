@@ -696,14 +696,14 @@ input[type='submit']:hover {
     transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.8s;
 }
 
-.formlinks:hover > .formlink {
+.formlinks:hover > .formlink, .formlinks:hover > .formlink + .paragraph {
     opacity: 0.5;
     -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.8s;
     -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.8s;
     transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.8s;
 }
 
-.formlinks:hover > .formlink:hover {
+.formlinks:hover > .formlink:hover, .formlinks:hover > .formlink:hover + .paragraph {
     opacity: 1;
     -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
     -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
@@ -772,9 +772,35 @@ input[type='submit']:hover {
     font-family: 'Product Sans', sans-serif;
 }
 
-.sectiontitle {
-    font-family: 'Product Sans', sans-serif;
-    color: white;   
+.generallink {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+}
+
+.generallink:hover {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+}
+
+.bodytitle {
+    color: #fff;
+    font-family: 'Archia', sans-serif;
+}
+
+.textbody {
+    margin: 2em 0;
+}
+
+.bodytext {
+    margin-left: 1em;
 }
 
 @media screen and (max-width: 800px) {

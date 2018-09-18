@@ -711,7 +711,7 @@ input[type='submit']:hover {
 }
 
 .documentdescription {
-    margin: 0 2.7em;
+    padding: 0 2.7em;
 }
 
 .paragraph {
@@ -726,21 +726,8 @@ input[type='submit']:hover {
 }
 
 .learnmore {
-    font-family: 'Archia', sans-serif;
-    color: #fff;
-    text-decoration: none;
     font-size: 1.2em;
-    border-bottom: 1px dotted #fff;
-    -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-    -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-}
-
-.learnmore:hover {
-    border-bottom: 1px dotted transparent;
-    -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-    -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    font-family: 'Archia', sans-serif;
 }
 
 .column .galleryimage {
@@ -801,6 +788,33 @@ input[type='submit']:hover {
 
 .bodytext {
     margin-left: 1em;
+}
+
+#presentationList {
+    list-style-type: none;
+}
+
+.currentprez, .allprez {
+    font-family: 'Archia';
+}
+
+.prezlinkcontainer {
+    margin: 0.5em;
+}
+
+.prezlisting a {
+    font-family: 'Archia', sans-serif;
+    font-size: 1.2em;
+}
+
+.prezlisting {
+    line-height: 2.2em;
+}
+
+.footnote {
+    color: #fff;
+    font-family: 'Archia', sans-serif;
+    font-size: 0.8em;
 }
 
 @media screen and (max-width: 800px) {

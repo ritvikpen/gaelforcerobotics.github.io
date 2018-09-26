@@ -21,6 +21,56 @@
 ::-moz-selection {
     background: #999;
 }
+/* Classes to be used across pages if needed */
+/* These have general styling already added to make for easier UX */
+
+/* General Link Styling */
+.generallink {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+    -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+}
+
+.generallink:hover {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
+}
+
+/* General Styling for Page Titles */
+.pagetitle {
+    color: #fff;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 4em;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* General Styling for Bodies of Text on the Page */
+/* Subheading 1 */
+.bodytitle {
+    color: #fff;
+    font-family: 'Archia', sans-serif;
+}
+
+/* Container for both .bodytitle and .bodytext */
+.textbody {
+    margin: 2em 0;
+}
+
+/* Styling for large paragraphs of text */
+/* Container for large paragraphs of text */
+/* Used with .paragraph on <p> elements to denote style */
+.bodytext {
+    margin-left: 0em;
+}
+
 
 html, body {
     background: transparent;
@@ -668,14 +718,6 @@ input[type='submit']:hover {
     height: 10em;
 }
 
-.pagetitle {
-    color: #fff;
-    font-family: 'Product Sans', sans-serif;
-    font-size: 4em;
-    font-weight: normal;
-    margin: 0;
-}
-
 .formlink {
     font-family: 'Archia', serif;
     color: #fff;
@@ -759,37 +801,6 @@ input[type='submit']:hover {
     font-family: 'Product Sans', sans-serif;
 }
 
-.generallink {
-    color: #fff;
-    text-decoration: none;
-    border-bottom: 1px solid #fff;
-    -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-    -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-}
-
-.generallink:hover {
-    color: #fff;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    -moz-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-    -webkit-transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-    transition: all cubic-bezier(0.2, 1, 0.2, 1) 0.4s;
-}
-
-.bodytitle {
-    color: #fff;
-    font-family: 'Archia', sans-serif;
-}
-
-.textbody {
-    margin: 2em 0;
-}
-
-.bodytext {
-    margin-left: 1em;
-}
-
 #presentationList {
     list-style-type: none;
 }
@@ -799,7 +810,7 @@ input[type='submit']:hover {
 }
 
 .prezlinkcontainer {
-    margin: 0.5em;
+    /* margin: 0.5em; */
 }
 
 .prezlisting a {

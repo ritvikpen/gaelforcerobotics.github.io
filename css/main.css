@@ -810,7 +810,7 @@ input[type='submit']:hover {
 }
 
 .prezlinkcontainer {
-    /* margin: 0.5em; */
+    margin: 1em 0;
 }
 
 .prezlisting a {

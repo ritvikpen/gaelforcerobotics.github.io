@@ -15,7 +15,8 @@
 
 #### Section 2: Team Overview
 * A short description of the team (this will include your history in order to be fair to all teams). Keep it to a small paragraph, maximum 6-8 sentences.
-* An individual portrait of the team captain and a short bio, 2-3 sentences at max (styling permitting, you may create a card that expands to reveal a longer bio if you wish)
+* An individual portrait of the team captain and a short bio or none at all, 2-3 sentences at max (styling permitting, you may create a card that expands to reveal a longer bio if you wish)
+* If the choice is no bio then team members should have some kind of designated role or title assigned to them for clarity
 * Individual team portraits of the team members and their bios -- same rules as the captain section. I would prefer it if the information on the captain was stylistically distinguishable.
 
 #### Section 3: Team Awards

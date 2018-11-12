@@ -1,0 +1,76 @@
+.header-landing {
+    background-image: url("../static/images/5327B/5327decal.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100%;
+}
+
+.title {
+    margin: 0;
+    font-family: "Product Sans";
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 2.7em;
+    /* font-size: 275%; */
+    background: linear-gradient(45deg, #216ae0, #d10300);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    z-index: 1;
+    position: center;
+    /*transform: translate(12.5%, 100%);*/
+    margin-left: 13px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 48vh;
+}
+
+.top{
+    z-index: 5;
+}
+
+.bottom{
+    z-index:0;
+}
+
+.titleBackground{
+    padding: 10px;
+
+    display: block;
+    position: relative;
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background-color: #241f20;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+
+/* anish's code, not 100% working w/ other parts yet */
+
+.parallelogram-back {
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: -3em;
+    width: 120%;
+    height: 150px;
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transition: transform 0.9s;
+    background: #241f20;
+    /* https: //codepen.io/sdthornton/pen/wBZdXq */
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}

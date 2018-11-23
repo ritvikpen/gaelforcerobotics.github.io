@@ -8,7 +8,7 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    background-size: 100%;
+    background-size: auto;
 }
 
 .title {
@@ -130,6 +130,7 @@
     font-size: 2em;
     color: white;
     display: inline;
+
 }
 
 .imgContainer:hover .imgText2{

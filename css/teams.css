@@ -8,6 +8,7 @@
     width: 100vw;
     height: 100vh;
     background-size: auto;
+    opacity: 0.4;
 }
 
 .title {
@@ -26,11 +27,50 @@
     padding: .2em;
 }
 
+.landing-title {
+  margin: 0;
+  font-family: "Darker Grotesque";
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  font-size: 9em;
+  /* font-size: 275%; */
+  display: block;
+  z-index: 1;
+  position: center;
+  margin-left: 13px;
+  padding: .2em;
+  margin-top: -0.2em;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+}
+
 .titleCenter {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 42vh;
+    padding-top: 15vh;
+}
+
+.landing-elements{
+  position: absolute;
+  margin-top: -40em;
+  margin-left: 10em;
+}
+
+.more-info{
+  background-color: #241f20;
+  color: white;
+  text-decoration: none;
+  font-family: "Darker Grotesque";
+  font-size: 2em;
+  padding: 0.7em;
+  padding-top: 0.5em;
+  margin-left: 100%;
+  display:inline-block;
+  border-radius: 10px;
+  width: 5.0em;
 }
 
 .titleBackground{
@@ -45,7 +85,41 @@
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
+.landingBackground{
+    padding: 10px;
+    position: relative;
+    transform: skew(-20deg);
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background-color: #241f20;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    width: 33em;
+    display:inline-block;
+}
+
 /* General Stuff */
+
+    .teamTitle {
+        font-size: 3em;
+        margin-left: 1em;
+        margin-top: 2em;
+        font-family: 'Darker Grotesque', sans-serif;
+    }
+    .teamTitle2 {
+        font-size: 3em;
+        margin-top: 2em;
+        font-family: 'Darker Grotesque', sans-serif;
+        margin-bottom: 1em;
+    }
+
+    .container{
+      width: 100em !important;
+    }
+
+    .margin_awards{
+      margin-left: 5em;
+    }
 
     .gradientBackgroundText{
         background: linear-gradient(45deg, #216ae0, #d10300);
@@ -56,6 +130,7 @@
 
     .contentContainer{
         margin: 2em 6em;
+        margin-bottom: 5em;
     }
 
     .contentTitle{
@@ -65,11 +140,23 @@
     }
 
     .bodyText{
-        margin-top: 20px;
-        font-family: 'Product Sans', sans-serif;
-        font-size: 2em;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 1.7em;
         color: white;
         display: block;
+        margin: 3em;
+        margin-top: 1em;
+        line-height: 1.5em;
+        font-weight: 100;
+    }
+
+    .bodyText2{
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 1.7em;
+        color: white;
+        display: block;
+        line-height: 1.5em;
+        font-weight: 100;
     }
 
     .themeBackground{
@@ -102,9 +189,14 @@
 /* Robot Section */
 
 .robotImg{
-  margin:15px;
-  width: 80vw;
+  margin:2.5em;
+  margin-left: 0em;
+  margin-bottom: 26px;
+  margin-right: 4em;
+  width: 40vw;
   height: auto;
+  display: inline-block;
+  float: left;
 }
 
 /* Awards Section */
@@ -118,6 +210,9 @@
     }
 
 /* Member Bios Section */
+    .new_container{
+      margin-bottom: 6em;
+    }
 
     .imgContainer{
         margin-bottom: 5vh;
@@ -130,10 +225,18 @@
     }
 
     .imgText{
-        font-family: 'Product Sans', sans-serif;
-        font-size: 2em;
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 1.7em;
         color: white;
         display: inline;
+    }
+
+    .imgText2{
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 1.7em;
+        color: white;
+        display: inline-block;
+        margin-top: 2em;
     }
 
     .roundImg{
@@ -141,9 +244,20 @@
         border-radius: 100%;
         display: inline-block;
         float: left;
-        margin-right: 2em;
+        margin-right: 5em;
+        margin-left: 3em;
     }
-    
+    hr{
+      width: 80%;
+      color: #adadad !important;
+      opacity: 0.1;
+    }
+    .Aboutcontainer{
+      margin-left: 5em;
+      margin-top: 5em;
+      margin-bottom: 15em;
+    }
+
 
 /* jank way to make sure that Rishi's navbar goes over current page*/
 

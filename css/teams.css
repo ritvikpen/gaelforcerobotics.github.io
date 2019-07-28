@@ -65,7 +65,7 @@
     }
 
     .bodyText{
-        margin-top: 0;
+        margin-top: 20px;
         font-family: 'Product Sans', sans-serif;
         font-size: 2em;
         color: white;
@@ -99,6 +99,13 @@
         color: white;
     }
 
+/* Robot Section */
+
+.robotImg{
+  margin:15px;
+  width: 80vw;
+  height: auto;
+}
 
 /* Awards Section */
 
@@ -112,40 +119,9 @@
 
 /* Member Bios Section */
 
-/* Design 2*/
-
-    .downIcon{
-        margin: .2em;
-    }
-
-    .fa-chevron-down{
-        transform: rotate(0deg);
-        transition: all 0s linear;
-        -moz-transition: all 0s linear;
-        -webkit-transition: all 0s linear;
-    }
-
-    .fa-chevron-down.open{
-        transform: rotate(180deg);
-        transition: all 0s linear;
-        -moz-transition: all 0s linear;
-        -webkit-transition: all 0s linear;
-    }
-
-    .hidden{
-        display: none;
-    }
-
-    .show{
-        display: block;
-    }
-
-/* Design 1*/
-
     .imgContainer{
-        margin-left: 6vw;
-        margin-right: 6vw;
         margin-bottom: 5vh;
+        margin-top: 2vh;
         padding: 2em;
         border-radius: 25px;
         border-style: solid;
@@ -167,48 +143,7 @@
         float: left;
         margin-right: 2em;
     }
-
-    .imgContainer:hover .imgText{
-        background: linear-gradient(45deg, #216ae0, #d10300);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .imgText2{
-        font-family: 'Product Sans', sans-serif;
-        font-size: 2em;
-        color: white;
-        display: inline;
-
-    }
-
-    .imgContainer:hover .imgText2{
-        color:black;
-    }
-
-    .imgContainer:hover{
-        background: white;
-        opacity: 1;
-    }
-
-    .imgContainer2{
-        margin-left: 6vw;
-        margin-right: 6vw;
-        margin-bottom: 5vh;
-        padding: 2em;
-        border-radius: 25px;
-        border-style: solid;
-        border-color: white;
-        float: none;
-    }
-
-    .imgContainer2:hover{
-        background: linear-gradient(45deg, #216ae0, #d10300);
-        opacity: 1;
-    }
-
-
+    
 
 /* jank way to make sure that Rishi's navbar goes over current page*/
 

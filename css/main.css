@@ -771,6 +771,11 @@ input[type='submit']:hover {
     line-height: 1.4em;
 }
 
+#teamPage .paragraph{
+	font-size: 140%;
+	margin-bottom: 3em;
+}
+
 .learnmorebox {
     margin-top: 2em;
 }

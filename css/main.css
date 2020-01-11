@@ -1,3 +1,24 @@
+html{
+	overflow-x: hidden; 
+}
+
+#supercoolgfrlogo{
+	padding-top: 40vh;
+	padding-bottom: 30vh;
+}
+
+
+.down-arrow{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #fff;
+  padding-bottom: 10vh;
+  display: block;
+}
+
+
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -774,6 +795,7 @@ input[type='submit']:hover {
 #teamPage .paragraph{
 	font-size: 140%;
 	margin-bottom: 3em;
+	text-align: justify;
 }
 
 .learnmorebox {

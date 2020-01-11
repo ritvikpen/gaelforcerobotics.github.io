@@ -158,6 +158,19 @@
 }
 */
 
+.down-triangle{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #5680E9;
+  opacity: 0;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+}
+
+
 
 /* 
                                                                               
@@ -297,7 +310,7 @@ Awards Section */
     .excellence{
         color: gold;
     }
-	
+
     .awardsList{
 		font-family: 'Archia', serif;
 		font-size: 140%;
@@ -354,6 +367,14 @@ Member Bios Section */
         margin-right: 5em;
         margin-left: 3em;
     }
+
+	.roundedImg{
+		border-radius: 20%;
+		margin-top: 1.5em;
+		width: 100%;
+		height: auto;
+	}
+
     hr{
       width: 80%;
       color: #adadad !important;
